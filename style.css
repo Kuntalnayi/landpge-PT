@@ -1,0 +1,152 @@
+.container{
+     overflow: hidden;
+}
+header{
+     border-bottom: 1px solid gray;
+     position: fixed;
+}
+header .logo{
+     padding-left: 10%;
+}
+#navbarNav li a{
+      margin-right: 30px;
+      font-size: 18px;
+      font-weight: 500;
+
+      position: relative;
+
+}
+#navbarNav li a::after{
+     content: "";
+     position: absolute;
+     left: 5px;
+     bottom: 7px;
+     height: 2px;
+     width: 0;
+     background: grey;
+     transition: all 0.4s;
+     
+}
+#navbarNav li a:hover::after{
+    width: 50%;
+}
+span{
+    color: rgb(185, 58, 11);
+}
+.who{
+    max-width: 40%;
+}
+.home-item h3{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.home-item p{
+     font-size: 19px;
+     color: gray;
+}
+.row1{
+     padding: 13px;
+    }
+    .card{
+    transition: all 0.4s;
+    border: 1px solid grey;
+    overflow: hidden;
+
+}
+.card:hover{
+    background-color: gray;
+    transform: translateY(-10px);
+}
+#menu{
+     
+     padding: 70px 0;
+}
+.price{
+     display: flex;
+     justify-content: space-between;
+     color: orange !important;
+     margin-left: 30px;
+     font-size: 20px;
+     font-weight: bold;
+}
+
+#track{
+     padding: 60px 0;
+}
+.track-list i{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(170, 25, 25);
+    margin-bottom: 10px;
+}
+.track-list h3{
+     font-size: 27px;
+     
+}
+.track-list p{
+     font-size: 14px;
+     color: gray;
+}
+.track-list a{
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 400;
+     color: rgb(179, 79, 42);
+    
+}
+.track-list a:hover{
+     text-decoration: underline;
+}
+.track1{
+     border: 1px solid grey;
+     padding: 15px;
+     
+     border-radius: 5px;
+   transition: all o.4s;
+}
+.track1:hover{
+     background: #2b2b2b;
+
+}
+.card1{
+     margin-right: 10px;
+}
+.rows{
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+     margin-top: 30px;
+}
+.cols{
+     border: 1px solid grey;
+     padding: 14px;
+     border-radius: 5px;
+
+}
+.cols:hover{
+      background: lightgrey;
+}
+
+footer{
+     padding: 80px 0;
+     background-color: #ccc;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+footer .list ul li a{
+            font-size: 17px;
+            color: #2b2b2b;
+            margin-bottom: 13px;
+
+}
+.list h3{
+     font-size: 20px;
+
+}
