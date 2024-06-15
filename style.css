@@ -16,6 +16,12 @@ header .logo{
       position: relative;
 
 }
+html{
+     
+     scroll-behavior: smooth;
+}
+
+
 #navbarNav li a::after{
      content: "";
      position: absolute;
